@@ -17,7 +17,7 @@ public class RainbowLauncher {
 
     public static void main(String[] args) throws Exception {
         File rainbowJar = new File("Rainbow.jar");
-        downloadFile("https://ci.codecrafter47.de/job/Rainbow/lastSuccessfulBuild/artifact/rainbow/target/Rainbow.jar", rainbowJar);
+        downloadFile("http://ci.codecrafter47.de/job/Rainbow/lastSuccessfulBuild/artifact/rainbow/target/Rainbow.jar", rainbowJar);
         addURL(rainbowJar.toURI().toURL());
 
         File propertiesFile = new File("RainbowLauncher.properties");
